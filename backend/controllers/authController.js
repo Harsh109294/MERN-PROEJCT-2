@@ -1,4 +1,4 @@
-const User = require('./models/User'); // single dot works here
+const User = require('../models/User'); // single dot works here
 
 const login = async (req, res) => {
     const { email, password } = req.body;

@@ -1,4 +1,4 @@
-const Agent = require('./models/Agent'); // single dot style
+const Agent = require('../models/Agent'); // single dot style
 
 const addAgent = async (req, res) => {
     const { name, email, mobile, password } = req.body;
